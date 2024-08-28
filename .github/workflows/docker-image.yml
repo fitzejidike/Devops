@@ -36,7 +36,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t ericsdo4u/devops-class:latest .
+        run: docker build -t fitz94/devops:latest .
 
       - name: Push Docker image to Docker Hub
-        run: docker push ericsdo4u/devops-class:latest
+        run: docker push fit94/devops:latest
